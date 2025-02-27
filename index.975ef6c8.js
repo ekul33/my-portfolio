@@ -2902,7 +2902,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 /**
- * Entry point of application, where App is rendered within the div with the id of "app" 
+ * Entry point of application, where App is rendered within the div with the id of "app"
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
@@ -27113,9 +27113,9 @@ var _stylesCss = require("./styles.css");
     name: "Luke Spanner",
     title: "Software Engineer",
     email: "",
-    gitHub: "github.com/ekul33",
+    gitHub: "ekul33",
     instagram: "",
-    linkedIn: "linkedin.com/in/luke-spanner",
+    linkedIn: "luke-spanner",
     medium: "",
     twitter: "",
     youTube: ""
@@ -27195,17 +27195,17 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
 var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "purple abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a Computing & IT with Psychology student studying at The Open University. I enjoy Exploring OpenAI tools and intergration with Business tools.";
+ */ const description = "I am a Computing & IT with Psychology BSc student studying at The Open University. I enjoy exploring OpenAI tools and intergration with Business tools.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -28640,7 +28640,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  * Home background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  *
@@ -28648,7 +28648,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  * freely use on your site.
  */ var _codingJpg = require("../images/coding.jpg");
 var _codingJpgDefault = parcelHelpers.interopDefault(_codingJpg);
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText = "Glasses infront of a laptop with code on the screen";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28699,6 +28699,7 @@ const Home = ({ name , title  })=>{
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _downArrowSvgDefault.default),
+                    className: "bounce",
                     style: {
                         height: "3rem",
                         width: "3rem"
@@ -28783,9 +28784,9 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+        title: "Reading the Mind in the Eyes",
+        description: "Using my background in psychology, I created a Python program that uses machine learning to predict emotions based on facial expressions.",
+        url: "https://github.com/ekul33/Reading_the_Mind_in_the_Eyes"
     },
     {
         title: "Web Development for Beginners",
@@ -28832,6 +28833,7 @@ const Portfolio = ()=>{
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _designDeskJpegDefault.default),
+                            className: "slide-in-left",
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28864,12 +28866,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 75,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28877,18 +28879,18 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 82,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 73,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 71,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28917,6 +28919,6 @@ $RefreshReg$(_c, "Portfolio");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire82ef")
 
 //# sourceMappingURL=index.975ef6c8.js.map
