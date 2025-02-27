@@ -31,10 +31,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "",
+    title: "Reading the Mind in the Eyes",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Using my background in psychology, I created a Python program that uses machine learning to predict emotions based on facial expressions.",
+    url: "https://github.com/ekul33/Reading_the_Mind_in_the_Eyes",
   },
   {
     title: "Web Development for Beginners",

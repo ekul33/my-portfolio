@@ -24,7 +24,7 @@ const imageAltText = "purple abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Computing & IT with Psychology student studying at The Open University. I enjoy Exploring OpenAI tools and intergration with Business tools.";
+  "I am a Computing & IT with Psychology BSc student studying at The Open University. I enjoy exploring OpenAI tools and intergration with Business tools.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
