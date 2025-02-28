@@ -154,4 +154,15 @@ img.socialIcon {
   animation: bounce 2s infinite;
 }
 
+.education-grid {
+  margin-top: 0;
+}
+
+.education-grid-container {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  padding: 2rem;
+  display: grid;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
