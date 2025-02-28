@@ -33,27 +33,27 @@ const projectList = [
   {
     title: "Reading the Mind in the Eyes",
     description:
-      "Using my background in psychology, I created a Python program that uses machine learning to predict emotions based on facial expressions.",
+      "Using my background in psychology, I created an application in Python which tests a user's ability to read emotions based on the eyes.",
     url: "https://github.com/ekul33/Reading_the_Mind_in_the_Eyes",
   },
-  {
+  /*{
     title: "Web Development for Beginners",
     description:
       "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
+  },*/
   {
-    title: "My Resume Site",
+    title: "My Portfolio Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from Githubs's portfolio workshop and deployed to GitHub pages. Includes my experience and design abilities using React and JavaScript.",
+    url: "https://github.com/ekul33/my-portfolio",
   },
-  {
+  /*{
     title: "GitHub Codespaces and github.dev",
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  },*/
 ];
 
 const Portfolio = () => {

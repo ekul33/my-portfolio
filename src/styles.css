@@ -156,6 +156,18 @@ img.socialIcon {
     transform: translateY(-15px);
   }
 }
+
 .bounce {
   animation: bounce 2s infinite;
+}
+
+.education-grid {
+  margin-top: 0rem; /* Adjust the value as needed */
+}
+
+.education-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  padding: 2rem; /* Add padding as needed */
 }
