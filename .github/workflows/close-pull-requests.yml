@@ -1,4 +1,6 @@
 name: Auto close pull requests
+permissions:
+  pull-requests: write
 on:
   pull_request_target:
     types: [opened, labeled, unlabeled, reopened]
